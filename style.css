@@ -1,0 +1,148 @@
+body{
+    background-color: #f8fafc ;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    
+}
+
+.hero-section{
+    background-image: url(photo-1489987707025-afc232f7ea0f.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: relative;
+    height: 500PX;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.header-content{
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    background-color:#4f46e5  ;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 40px;
+    transition: all 0.3 ease;
+}
+
+button:hover {
+    background-color:#4338ca  ;
+   
+    transform: scale(1.05);
+}
+.header-content h1{
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.p {
+    color: #475569  ;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.products-header{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.products-header h1{
+    color: #0f172a  ;
+    font-weight: 800;
+}
+
+.products-header p{
+    color: #475569;
+}
+.products-container{
+    margin:0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:20px;
+    justify-content: center;
+   display: flex;
+    align-items: center;
+    
+}
+
+.product-card{
+    width: 320px;
+    background-color:white ;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.product-card img{
+    width: 100%;
+    border-radius:10px;
+    
+   margin-bottom: 10px;
+    
+
+}
+
+.price-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price-row span {
+    font-weight: 800;
+    font-size: 20px;
+    color: #4338ca;
+}
+
+.cart {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0f172a ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
